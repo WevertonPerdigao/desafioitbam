@@ -9,6 +9,8 @@ Instrução:
 
 -Executar o Script abaixo no banco de dados MySQL
 
+-Utilizar o Eclipse com o plugin Spring Tools (aka Spring IDE and Spring Tool Suite) instalado
+
 -Importar através de Projeto Maven Existente 
 
 -Executar o projeto
