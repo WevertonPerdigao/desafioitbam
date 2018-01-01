@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html ng-app="appProduto">
+    <head>
+
+        <base href="/"  />
+        <meta charset="UTF-8"/>
+        <title>Início</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular-route.js"></script>
+        <link rel="stylesheet" type="text/css" href="webjars/bootstrap/3.3.7/css/bootstrap.min.css"/>
+        <script src="./js/app.js"></script>
+        <script src="./js/controller/main-controller.js"></script>
+        <script src="./js/controller/produto-controller.js"></script>
+        <script src="./js/controller/produto-detalhe-controller.js"></script>
+          <script src="./js/controller/produto-create-controller.js"></script>
+           <script src="./js/controller/produto-alterar-controller.js"></script>
+                  
+    </head>
+    <body ng-controller="mainController" >
+       <h1>Dark Store</h1>
+       
+
+        <a href="/produtos">Produtos</a>  | 
+
+        <br/>
+              <div ng-view="ng-view">
+
+        </div>
+        
+      
+
+        
+    </body>
+
+</html>
